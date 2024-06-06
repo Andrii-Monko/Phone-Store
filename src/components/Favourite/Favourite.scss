@@ -1,0 +1,22 @@
+.favourite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .addres__way {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 93px;
+        text-decoration: none;
+
+        .addres-img {
+            object-fit: contain;
+        }
+
+        .addres__text {
+            color: #89939A;
+        }
+    }
+}

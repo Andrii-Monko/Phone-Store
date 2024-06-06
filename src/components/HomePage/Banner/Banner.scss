@@ -1,0 +1,27 @@
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 0 100px;
+
+    .banner-photo {
+        height: 400px;
+        width: 1040px;
+        object-fit: cover;
+    }
+
+    .banner__button {
+        cursor: pointer;
+        width: 32px;
+        height: 400px;
+        background-color: white;
+        border: 1px solid #B4BDC3;
+
+        &:first-child {
+            margin: 0 20px 0 0;
+        }
+
+        &:last-child {
+            margin: 0 0 0 20px;
+        }
+    }
+}

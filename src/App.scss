@@ -1,0 +1,29 @@
+// not empty
+
+@import './components/Headers/Headers';
+@import './components/Accessories/Accessoires';
+@import './components/Basket/Basket';
+@import './components/DetailPage/DetailPage';
+@import './components/Favourite/Favourite';
+@import './components/Footer/Footer';
+@import './components/HomePage/HomePage';
+@import './components/Location/Location';
+@import './components/PhonesPages/PhonesPages';
+@import './components/ProductList/ProductList';
+@import './components/SortGoodsFile/SortGoodsFile';
+@import './components/TabletDetailPage/TabletDetailPage';
+@import './components/Tablets/Tablets';
+@import './components/YouAlsoMayLike/YouAlsoMayLike';
+@import './components/HomePage/Banner/Banner';
+@import './components/HomePage/Category/Category';
+@import './components/HomePage/HotPrice/HotPrice';
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+.basket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+
+    .basket__back-button {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        width: 1140px;
+
+        .basket__button-text {
+            color: #89939A;
+            font-size: 12px;
+            font-weight: 600;
+            margin: 0;
+        }
+    }
+
+    .basket__title {
+        color: #313237;
+        width: 1140px;
+    }
+
+    .basket__good-box {
+        display: flex;
+        gap: 10px;
+
+        .basket__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 752px;
+            height: 128px;
+            border: 1px solid #E2E6E9;
+
+            .basket__button {
+                background-color: white;
+                border: none;
+                cursor: pointer;
+            }
+
+            .basket__photo {
+                width: 80px;
+                height: 80px;
+                object-fit: contain;
+            }
+
+            .basket__name {
+                width: 240px;
+            }
+
+            .button__box {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 96px;
+
+                .basket__btn {
+                    width: 32px;
+                    height: 32px;
+                    background-color: white;
+                    border: 1px solid #B4BDC3
+                }
+            }
+        }
+
+        .basket__price-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 368px;
+            height: 206px;
+            border: 1px solid #E2E6E9;
+
+            .price__text {
+                text-align: center;
+                width: 321px;
+                color: #89939A;
+                border-bottom: 1px solid #89939A;
+                padding: 0 0 15px;
+            }
+
+            .basket__cheked-button {
+                width: 320px;
+                height: 48px;
+                background-color: #313237;
+                border: none;
+                color: white;
+            }
+        }
+    }
+}

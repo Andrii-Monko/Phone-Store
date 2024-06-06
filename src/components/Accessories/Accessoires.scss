@@ -1,0 +1,11 @@
+.accessoires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+
+    .accessoires__text {
+        text-align: center;
+    }
+}

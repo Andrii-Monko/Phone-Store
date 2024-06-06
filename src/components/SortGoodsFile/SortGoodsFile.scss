@@ -1,0 +1,23 @@
+.sort-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .sortParam {
+        font-weight: 600;
+        font-size: 12px;
+        color: #89939A;
+        margin: 0;
+    }
+}
+
+.select {
+    width: 172px;
+    height: 40px;
+    border: 1px solid #B4BDC3;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #313237;
+    margin: 0 0 30px;
+}

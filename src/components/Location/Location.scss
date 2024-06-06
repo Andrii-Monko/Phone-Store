@@ -1,0 +1,29 @@
+.location {
+    width: 1140px;
+
+    .address__box {
+        display: flex;
+        align-items: center;
+        margin: 0 0 30px;
+
+        .icon {
+            margin: 0 10px 0 0;
+        }
+
+        .right__icon {
+            width: 9px;
+            height: 9px;
+            object-fit: contain;
+            margin: 0 5px 0 0;
+        }
+
+        .address__way {
+            color: #89939A;
+            margin: 0 5px 0 0;
+        }
+    }
+
+    .location__title {
+        margin: 0;
+    }
+}

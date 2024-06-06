@@ -1,0 +1,115 @@
+.tablets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .tablets__sort-container {
+        width: 1140px;
+    }
+
+    .tablets__container {
+        display: flex;
+        gap: 10px;
+
+        .tablets__box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #E2E6E9;
+            width: 272px;
+
+            .tablet__link {
+                text-decoration: none;
+
+                .tablets__photo {
+                    width: 208px;
+                    height: 208px;
+                    object-fit: contain;
+                }
+
+                .tablets__name {
+                    text-align: center;
+                    color: #313237;
+                    height: 33.6px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    text-decoration: none;
+                    width: 224px;
+                }
+            }
+
+            .tablets__price-box {
+                display: flex;
+                width: 224px;
+                border-bottom: 1px solid #E2E6E9;
+                padding: 0 0 10px;
+                margin: 0 0 20px;
+
+                .tablets__discount {
+                    font-weight: 700;
+                    font-size: 22px;
+                    color: #313237;
+                    margin: 0 10px 0 0;
+                }
+
+                .tablets__price {
+                    font-weight: 500;
+                    font-size: 22px;
+                    color: #89939A;
+                    margin: 0;
+                }
+            }
+
+            .tablets__param {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 224px;
+                margin: 0 0 10px;
+
+                .tablets__category {
+                    color: #89939A;
+                    font-weight: 600;
+                    font-size: 12px;
+                }
+
+                .tablets__info {
+                    color: #313237;
+                    font-weight: 600;
+                    font-size: 12px;
+                    margin: 0;
+                }
+            }
+
+            .button-box {
+                display: flex;
+                gap: 20px;
+                margin: 0 0 40px;
+
+                .button {
+                    cursor: pointer;
+                }
+
+                .button__buy {
+                    width: 176px;
+                    height: 40px;
+                    color: white;
+                    background-color: #313237;
+                    border: none;
+                }
+
+                .button__like {
+                    width: 40px;
+                    height: 40px;
+                    background-color: white;
+                    border: 1px solid #B4BDC3;
+
+                    .phone__like-icon {
+                        color: #B4BDC3;
+                    }
+                }
+            }
+        }
+    }
+}

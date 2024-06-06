@@ -1,0 +1,115 @@
+
+.phone {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 1136px;
+
+    .phone__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 272px;
+        border: 1px solid #E2E6E9;
+
+        .linkToDetailPage {
+            text-decoration: none;
+
+            .phone__photo {
+                object-fit: contain;
+                width: 208px;
+                height: 208px;
+                margin: 20px 0;
+            }
+
+            .phone__name {
+                color: #313237;
+                height: 33.6px;
+                font-weight: 500;
+                font-size: 14px;
+                text-decoration: none;
+                width: 224px;
+            }
+
+            .phone__price-box {
+                display: flex;
+                width: 224px;
+                border-bottom: 1px solid #E2E6E9;
+                padding: 0 0 10px;
+                margin: 0 0 20px;
+
+                .phone__price {
+                    font-weight: 700;
+                    font-size: 22px;
+                    color: #313237;
+                    margin: 0 10px 0 0;
+                }
+
+                .phone__fullPrice {
+                    font-weight: 500;
+                    font-size: 22px;
+                    color: #89939A;
+                    margin: 0;
+                    text-decoration: line-through;
+                }
+            }
+
+            .phone__param {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 224px;
+                margin: 0 0 10px;
+
+                .phone__category {
+                    color: #89939A;
+                    font-weight: 600;
+                    font-size: 12px;
+                }
+
+                .phone__info {
+                    color: #313237;
+                    font-weight: 600;
+                    font-size: 12px;
+                    margin: 0;
+                }
+            }
+        }
+
+        .button-box {
+            display: flex;
+            gap: 20px;
+            margin: 0 0 40px;
+
+            .button {
+                cursor: pointer;
+            }
+
+            .button__buy {
+                content: 'Add to cart';
+                width: 176px;
+                height: 40px;
+                color: white;
+                background-color: #313237;
+                border: none;
+            }
+
+            .active {
+                color: green;
+                border: 1px solid #E2E6E9;
+                background-color: white;
+            }
+
+            .button__like {
+                width: 40px;
+                height: 40px;
+                background-color: white;
+                border: 1px solid #B4BDC3;
+
+                .phone__like-icon {
+                    color: #B4BDC3;
+                }
+            }
+        }
+    }
+}

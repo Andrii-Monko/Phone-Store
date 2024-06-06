@@ -1,0 +1,49 @@
+.category {
+    margin: 0 0 100px;
+
+    .category__box {
+        display: flex;
+        gap: 8px;
+
+        .category__container {
+            text-decoration: none;
+
+            .category__banner {
+                width: 368px;
+                height: 368px;
+                background-position: 60px 60px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border: 1px solid #ffe5ce;
+            }
+
+            .phone-box {
+                background-color: #ffe5ce;
+                background-image: url('../../../../public/_new/img/category-phones.png');
+                background-position: 80px 40px;
+            }
+
+            .tablets-box {
+                background-color: #8e8f94;
+                background-image: url('../../../../public/_new/img/category-tablets.png');
+            }
+
+            .accessories-box {
+                background-color: #ac385e;
+                background-image: url('../../../../public/_new/img/category-accessories.png');
+            }
+
+            .category__name {  
+                font-weight: 600;
+                font-size: 20px;
+                color: #313237;
+            }
+
+            .category__goods-amount {
+                font-weight: 500;
+                font-size: 14px;
+                color: #89939A;
+            }
+        }
+    }
+}

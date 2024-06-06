@@ -1,0 +1,34 @@
+.mainBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone__top-container {
+    width: 1140px;
+}
+
+.paginate__container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 40px 0;
+    
+    
+    .paginate__link {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 32px;
+        border: 1px solid #B4BDC3;
+        color: black;
+    }
+    
+    .active-state {
+        color: #fff;
+        background-color: #313237;
+    }
+}
