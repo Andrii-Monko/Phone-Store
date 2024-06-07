@@ -1,0 +1,23 @@
+name: Build and Deploy
+
+on: 
+  push:
+    branches: [ "master" ]
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+     - uses: actions/chekout@v3
+
+     - name: Install dependecies
+       run: npm ci
+       
+     - name: Build the app
+       run: npm run build
+       
+     - name: Deploy
+       uses: JamesIves/github-pages-deploy-action@v4
+       with: 
+         folder: react-phone-catalog
